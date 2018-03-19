@@ -22,7 +22,7 @@ python3 s2s.py --size 512 --num_layers 2 --num_epoch 5 --batch_size 64 --num_per
 ```
 
 其中：如果需要更好的效果，可以将size和num_per_epoch分别增加到1024和500000
-```
+
 
 输出：在 model/model1 目录会输出模型文件，上面的参数大概会生成700MB的模型
 
@@ -34,7 +34,7 @@ python3 s2s.py --size 512 --num_layers 2 --num_epoch 5 --batch_size 64 --num_per
 下面的测试参数应该和上面的训练参数一样，只是最后加了--test true 进入测试模式
 
 
-```
+
 运行：
 
 ```
